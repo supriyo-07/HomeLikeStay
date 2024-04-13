@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Home Like Stay</a>
+      </div>
+      <ul class="nav navbar-nav">
+      <li><a href="HOME.html">Home</a></li>
+      <li><a href="contact_us.html">Contact Us</a></li>
+       </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+<div style= "background-image:url('header2.jpeg');">
+<a href="hlslogo.jpeg" title="click this to view the logo">
+<center> <img src="hlslogo.jpeg" class="img-circle" height="150px" width="150px" ><br><br><br><br></a>
+<font face="algerian" size="8" color="white"><b>HOME LIKE STAY.</b></font><br>
+<hr align="center" size="4%" color="black">
+<title>Registration_page
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+  body {
+      position: relative; 
+  }
+  </style>
+</head>
+</div>
+<style>
+body {
+  background-image: url('bg4.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+<body >
+
+ <style>
+            #myfooter {
+              background-color: rgb(113, 89, 229);
+      color: rgb(225, 219, 27);
+      padding: 5px;
+      text-align: center;
+    } 
+            
+            </style>
+
+<div></div><hr color="darkblue" size="2%">
+<font size="3" color="darkblue">
+<marquee id="myfooter"><b> WELCOME TO OUR PORTAL....WE WILL BE HAPPY TO HELP YOU OUT....OUR MOTO IS,TO HELP YOU TO FIND "A HOME FAR FROM HOME"....</b></marquee>
+</font><hr color="darkblue" size="2%"><br></div>
+<form accept-charset="utf-8" action="RegisterServer" method="post">
+<center>
+<font size="5" color="darkblue">
+<table>
+  <tr><td>
+    <label for="fname"><b>First Name <font color="red" size="5">*</font>:</b></label>
+         <input type="text" class="form-control" name="fname"  required></td></tr>
+    
+         <tr><td>
+          <label for="lname"><b>Last Name <font color="red" size="5">*</font>:</b></label>
+               <input type="text" class="form-control" name="lname"  required></td></tr>
+          
+               <tr><td>
+                <label for="email"><b>Email <font color="red" size="5">*</font>:</b></label>
+                     <input type="text" class="form-control" name="Eid" placeholder="eg:suresh123@gmail.com" required></td></tr>
+                
+                     <tr><td>
+                      <label for="number"><b>Contact Number <font color="red" size="5">*</font>:</b></label>
+                      
+                      <input type="tel"class="form-control" id="number" name="con" required maxlength="10" required ></td></tr>
+                      <tr><td>
+                        <label for="lname"><b>Date Of Birth<font color="red" size="5">*</font> :</b></label>
+                             <input type="date" class="form-control" name="dob"  required></td></tr>
+                        
+
+<tr><td><label for="gen"><b>Gender </b>:</label>
+
+  <select name="gen" class="form-control"id="gen" required>
+      <option value="">--Please choose an option--</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="others">Others</option>
+      
+  </select></td></tr>
+ 
+  <tr><td>
+    <label for="age"><b>Age<font color="red" size="5">*</font> :</b></label>
+         <input type="number" class="form-control" name="age" min="16" required><font color="red" size="3">*above 16 only</font></td></tr></td></tr>
+
+    
+<tr><td> <label for="adhar"><b>Aadhar No.<font color="red" size="5">*</font> :</b></label>
+  <input type="text" name="adhar" required maxlength="12" size="12"></td></tr>
+<tr><td><label for="join"><b>Join As <font color="red" size="5">*</font></b>:</label>
+
+  <select name="join_as"  class="form-control"id="join" required>
+      <option value="">--Please choose an option--</option>
+      <option value="client" >Client</option>
+      <option value="landlord">Landlord</option>
+      
+  </select></td></tr>
+
+
+  <tr><td>
+    <label for="password"><b>Password<font color="red" size="5">*</font> :</b></label>
+         <input type="password" class="form-control" name="Pass" placeholder="****" required></td></tr>
+  </table><br>
+      <div class="container">
+       
+        <button class="btn btn-primary" role="button" aria-pressed="true" value="submit" data-toggle="tooltip" title=" Get register.">SIGN_UP</button>
+       </div><br><br>
+</font>
+</center>
+</form>
+</body>
+</html>
